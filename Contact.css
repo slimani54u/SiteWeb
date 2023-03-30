@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  
+  }
+  
+  nav {
+    position: fixed;
+  
+    width: 100%;
+    font-size: 120%;
+    background: linear-gradient(90deg, rgba(9, 9, 121, 0.8) 24%, rgba(4, 117, 192, 0.8) 74%, rgba(1, 185, 237, 0.8) 97%, rgba(0, 212, 255, 0.8) 100%);
+    border-radius: 10% 10% 70% 70%;
+    padding: 2%;
+    z-index: 100000;
+  
+  }
+  
+  
+  t.menu {
+    z-index: 10;
+  }
+  
+  nav>a {
+    font-family: "Gill Sans", serif;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+  
+    text-decoration: none;
+  
+  
+  }
+  
+  nav>ul>li:hover {
+  
+    transition: 0.4s;
+    font-size: 1.4em;
+    text-decoration: underline;
+  
+  }
+  
+  nav>ul>li>.sous-menu :hover {
+  
+    transition: 0.4s;
+    font-size: 1em;
+    text-decoration: underline;
+  
+  }
+  
+  
+  
+  .menu ul {
+    display: none;
+    list-style-type: none;
+  
+  }
+  
+  .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+  
+  }
+  
+  .menu a {
+    display: block  ;
+    width: 100%;
+  
+    color: #fff;
+  
+    text-decoration: none;
+    padding: 3px 10px;
+  
+  }
+  
+  .menu li:hover ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .line{
+    background-color:#001E29;
+    padding: 10%;
+    
+  }
+  .cs{
+    font-size: 110%;
+  }
+
+  .line >h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: #fff;  
+    padding-bottom: 2%;  
+  }
+  body{
+    background-color: #181A1B  ;
+  }
+  .main{
+    color: #fff;
+    
+    font-family:'Times New Roman', Times, serif;
+  }
+ 
+  nav > .menu > li > button{
+  
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    border-color: #fff;
+    
+    background-image: url("images/trad.png");
+    cursor: pointer;
+    }
+    nav > .menu > li > button > a {
+      width:35px;
+      height:35px;
+      }
+    .centre{
+      
+      display: flex;
+      flex-direction: row;
+      
+      justify-content:space-evenly;
+      margin: 4%;
+      
+    }
+    .contact-a,.contact-b,.contact-c{
+    
+    padding: 1%;
+    border:solid;
+    border-color: darkgray;
+    display: flex;
+    flex-direction: row;  
+    }
+
+    .contact-a h3,.contact-b h3,.contact-c h3{
+     margin-bottom: 5%; 
+     font-size: 130%;
+     
+    }
+    .urgent{
+      color: #EE4343;
+    }
+    .int-contact-a > p,.int-contact-b > p, .int-contact-c > p{
+     color: #7A9387;
+     
+    }
+   
+    
